@@ -7,6 +7,33 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="1000" Width="1700">
 	<Canvas x:Name="grid" >
-		<Label Content="Label" Canvas.Left="270" Canvas.Top="326" Background="#3FE8FF00"/>
+		<Label Content="Player 1" Canvas.Left="10" Canvas.Top="10" RenderTransformOrigin="0.596,0.423" FontWeight="Bold" Foreground="#FFFF0A0A"/>
+		<Label Content="Player 2" Canvas.Left="170" Canvas.Top="10" RenderTransformOrigin="0.596,0.423" FontWeight="Bold" Foreground="#FFFF0A0A"/>
+		<Label Content="Player 3" Canvas.Left="345" Canvas.Top="10" RenderTransformOrigin="0.596,0.423" FontWeight="Bold" Foreground="#FFFF0A0A"/>
+		<Label Content="Player 4" Canvas.Left="507" Canvas.Top="10" RenderTransformOrigin="0.596,0.423" FontWeight="Bold" Foreground="#FFFF0A0A"/>
+		<Label Content="Energy:" Canvas.Left="10" Canvas.Top="36"/>
+		<Label Content="Score:" Canvas.Left="10" Canvas.Top="62"/>
+		<Label Content="Last action:" Canvas.Left="10" Canvas.Top="88"/>
+		<Label x:Name="lbP1E" Content="" Canvas.Left="85" Canvas.Top="36" Width="58"/>
+		<Label x:Name="lbP1S" Content="0" Canvas.Left="85" Canvas.Top="62"/>
+		<Label x:Name="lbP1A" Content="0" Canvas.Left="85" Canvas.Top="88"/>
+		<Label Content="Energy:" Canvas.Left="175" Canvas.Top="36"/>
+		<Label Content="Score:" Canvas.Left="175" Canvas.Top="62"/>
+		<Label Content="Last action:" Canvas.Left="175" Canvas.Top="88"/>
+		<Label x:Name="lbP2E" Content="0" Canvas.Left="250" Canvas.Top="36"/>
+		<Label x:Name="lbP2S" Content="0" Canvas.Left="250" Canvas.Top="62"/>
+		<Label x:Name="lbP2A" Content="0" Canvas.Left="250" Canvas.Top="88"/>
+		<Label Content="Energy:" Canvas.Left="351" Canvas.Top="36"/>
+		<Label Content="Score:" Canvas.Left="351" Canvas.Top="62"/>
+		<Label Content="Last action:" Canvas.Left="351" Canvas.Top="88"/>
+		<Label x:Name="lbP3E" Content="0" Canvas.Left="426" Canvas.Top="36"/>
+		<Label x:Name="lbP3S" Content="0" Canvas.Left="426" Canvas.Top="62"/>
+		<Label x:Name="lbP3A" Content="0" Canvas.Left="426" Canvas.Top="88"/>
+		<Label Content="Energy:" Canvas.Left="512" Canvas.Top="36"/>
+		<Label Content="Score:" Canvas.Left="512" Canvas.Top="62"/>
+		<Label Content="Last action:" Canvas.Left="512" Canvas.Top="88"/>
+		<Label x:Name="lbP4E" Content="0" Canvas.Left="587" Canvas.Top="36"/>
+		<Label x:Name="lbP4S" Content="0" Canvas.Left="587" Canvas.Top="62"/>
+		<Label x:Name="lbP4A" Content="0" Canvas.Left="587" Canvas.Top="88"/>
 	</Canvas>
 </Window>
